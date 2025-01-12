@@ -6,6 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<meta name="google-site-verification" content="3jHCvvjjHd8hV4pVSWJ0hARkGtHqr54KgdCJ_YRbXQo" />
 
 I am a third-year undergraduate student at Zhejiang University, majoring in Computer Science and Technology. I am interested in **deep learning**, particularly in **interpreting models** and **developing theoretical foundations for them**. My long-term goal is to understand **the mechanisms of neural networks**, transforming deep learning from a "black box" approach into a rigorous **science**.
 
