@@ -91,7 +91,7 @@
 
   img {
     max-width: 175px;
-    border-radius: 50%;
+    border-radius: 0; /* 将圆角半径设置为0，改成方形 */
 
     @include breakpoint($large) {
       padding: 5px;
@@ -99,6 +99,7 @@
     }
   }
 }
+
 
 .author__content {
   display: table-cell;
