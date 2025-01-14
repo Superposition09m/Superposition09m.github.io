@@ -12,6 +12,8 @@ I am a third-year undergraduate student at Zhejiang University, majoring in Comp
 
 Currently, I am focusing on **mechanistic interpretability** in large language models (LLMs), a rapidly growing area of research that seeks to reverse-engineer the internal operations of neural networks to uncover how they function. Unlike learning theory, which emphasizes formal and mathematical frameworks, mechanistic interpretability takes an approach closer to the "physics" of LLMs. I believe that both **formal theoretical approaches** and **mechanistic discoveries**—viewed through a physical lens—are essential for achieving a comprehensive understanding of neural networks.
 
+I am very fortunate to be mentored by [Prof. Hao Wang](http://www.wanghao.in/), who provides me with invaluable guidance and support. I am also grateful to [Prof. Quanshi Zhang](http://qszhang.com/), who mentors me in the fascinating world of deep learning and interpretability, offering many opportunities to explore this field. I am also very grateful for the support and encouragement from many seniors and peers, who help me grow and improve continuously.
+
 News
 ======
 - [2024. 9] One Paper Accepted by NeurIPS 2024.
