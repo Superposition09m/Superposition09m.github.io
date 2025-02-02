@@ -36,3 +36,4 @@ Selected Papers
 - **Tracking the Feature Dynamics in LLM Training: A Mechanistic Study**  
   **Yang Xu**, Yi Wang, Hao Wang.  
   *arXiv preprint arXiv:2412.17626, 2024.*
+  [\[PDF\]](\files\arXiv_v2.pdf)
