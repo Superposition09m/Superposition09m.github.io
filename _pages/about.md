@@ -8,9 +8,9 @@ redirect_from:
 ---
 <meta name="google-site-verification" content="3jHCvvjjHd8hV4pVSWJ0hARkGtHqr54KgdCJ_YRbXQo" />
 
-I am a third-year undergraduate student at Zhejiang University, majoring in Computer Science and Technology. I am interested in **deep learning**, particularly in **interpreting models** and **developing theoretical foundations for them**. My long-term goal is to understand **the mechanisms of neural networks**, transforming deep learning from a "black box" approach into a rigorous **science**.
+I am a third-year undergraduate student at Zhejiang University, majoring in Computer Science and Technology. My research interests lie broadly in deep learning, spanning both theory and applications. I am particularly interested in understanding the **mechanisms** behind deep learning models. Additionally, I am interested in **empirical methodology**, believing that intelligence can be understood through construction.
 
-Currently, I am focusing on **mechanistic interpretability** in large language models (LLMs), a rapidly growing area of research that seeks to reverse-engineer the internal operations of neural networks to uncover how they function. Unlike learning theory, which emphasizes formal and mathematical frameworks, mechanistic interpretability takes an approach closer to the "physics" of LLMs. I believe that both **formal theoretical approaches** and **mechanistic discoveries**—viewed through a physical lens—are essential for achieving a comprehensive understanding of neural networks.
+Regarding the working principles of deep learning models, I am currently focusing on **mechanistic interpretability** of LLMs—a rapidly growing research area that aims to reverse-engineer the internal operations of neural networks to uncover how they function. On the empirical side, I plan to explore aspects such as **RL** and **foundation models** in the future.
 
 I am very fortunate to be mentored by [Prof. Hao Wang](http://www.wanghao.in/), who provides me with invaluable guidance and support. I am also grateful to [Prof. Quanshi Zhang](http://qszhang.com/), who mentors me in the fascinating world of deep learning and interpretability, offering many opportunities to explore this field. I am also very grateful for the support and encouragement from many seniors and peers, who help me grow and improve continuously.
 
