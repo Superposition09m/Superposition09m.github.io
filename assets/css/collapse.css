@@ -15,26 +15,3 @@
     display: none;
     padding : 5px;
 }
-
-.paper-section {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.paper-item {
-    padding: 15px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.paper-item h3 {
-    margin: 0 0 10px;
-    color: #333;
-}
-
-.paper-item img {
-    border-radius: 5px;
-}
