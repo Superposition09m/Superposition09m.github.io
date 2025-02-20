@@ -8,7 +8,7 @@ redirect_from:
 ---
 <meta name="google-site-verification" content="3jHCvvjjHd8hV4pVSWJ0hARkGtHqr54KgdCJ_YRbXQo" />
 
-I am a third-year undergraduate student at Zhejiang University, majoring in Computer Science and Technology. I am interested in **deep learning**, particularly in **interpreting models** and **developing theoretical foundations for them**. My long-term goal is to understand **the mechanisms of neural networks**, transforming deep learning from a "black box" approach into a rigorous **science**.
+I am a third-year undergraduate student at Zhejiang University, majoring in Computer Science and Technology. I am interested in **deep learning**, particularly in **interpreting models** and **developing theoretical foundations for them**. My long-term goal is to understand **the mechanisms of neural networks**, transforming deep learning from a "black box" approach into a rigorous **science**. I am also interested in topics such as \textbf{alignment} and \textbf{trustworthiness} in AI systems, with the aim of ensuring that AI technologies are beneficial to society.
 
 Currently, I am focusing on **mechanistic interpretability** in large language models (LLMs), a rapidly growing area of research that seeks to reverse-engineer the internal operations of neural networks to uncover how they function. Unlike learning theory, which emphasizes formal and mathematical frameworks, mechanistic interpretability takes an approach closer to the "physics" of LLMs. I believe that both **formal theoretical approaches** and **mechanistic discoveries**—viewed through a physical lens—are essential for achieving a comprehensive understanding of neural networks.
 
