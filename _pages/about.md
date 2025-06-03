@@ -25,16 +25,16 @@ News
 Selected Papers
 ======
 
-- **Layerwise Change of Knowledge in Neural Networks** [\[PDF\]](https://arxiv.org/abs/2409.08712)
+- **Layerwise Change of Knowledge in Neural Networks** [\[PDF\]](https://arxiv.org/abs/2409.08712)  
   Xu Cheng\*, Lei Cheng\*, Zhaoran Peng, **Yang Xu**, Tian Han, Quanshi Zhang.  
   *Proceedings of the 41st International Conference on Machine Learning (ICML), PMLR 235:8038-8059, 2024.*
 
-- **Towards the Dynamics of a DNN Learning Symbolic Interactions** [\[PDF\]](https://arxiv.org/pdf/2407.19198)
+- **Towards the Dynamics of a DNN Learning Symbolic Interactions** [\[PDF\]](https://arxiv.org/pdf/2407.19198)  
   Qihan Ren\*, Junpeng Zhang\*, **Yang Xu**, Yue Xin, Dongrui Liu, Quanshi Zhang.  
   *Neural Information Processing Systems (NeurIPS), 2024.*
     - Originally second author for theoretical contributions; authorship adjusted after merging experimental paper's first author.
 
-- **Tracking the Feature Dynamics in LLM Training: A Mechanistic Study** [\[PDF\]](\files\arXiv_v2.pdf)
+- **Tracking the Feature Dynamics in LLM Training: A Mechanistic Study** [\[PDF\]](\files\arXiv_v2.pdf)  
   **Yang Xu**, Yi Wang, Hengguan Huang, Hao Wang.  
   *arXiv preprint arXiv:2412.17626, 2024.*
 
