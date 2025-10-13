@@ -34,7 +34,7 @@ Selected Papers
   *Neural Information Processing Systems (NeurIPS), 2024.*
     - Originally second author for theoretical contributions; authorship adjusted after merging experimental paper's first author.
 
-- **Tracking the Feature Dynamics in LLM Training: A Mechanistic Study** [\[PDF\]](https://arxiv.org/pdf/2412.17626) 
+- **Tracking the Feature Dynamics in LLM Training: A Mechanistic Study** [\[PDF\]](https://arxiv.org/pdf/2412.17626)  
   **Yang Xu**, Yi Wang, Hengguan Huang, Hao Wang.
   *arXiv preprint arXiv:2412.17626, 2024.*
 
