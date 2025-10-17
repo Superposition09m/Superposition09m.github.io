@@ -39,6 +39,6 @@ Selected Papers
   *arXiv preprint arXiv:2412.17626, 2024.*
 
 - **Simulating and Understanding Deceptive Behaviors in Long-Horizon Interactions** [\[PDF\]](https://arxiv.org/abs/2510.03999)
-  **Yang Xu**\*, Xuanming Zhang\*, Min-Hsuan Yeh, Jwala Dhamala, Ousmane Dia, Rahul Gupta, Yixuan Li.
+  **Yang Xu**\*, Xuanming Zhang\*, Samuel Yeh, Jwala Dhamala, Ousmane Dia, Rahul Gupta, Sharon Li.
   *arXiv preprint arXiv:2510.03999, 2024.*
 
