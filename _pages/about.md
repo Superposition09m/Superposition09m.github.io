@@ -32,7 +32,7 @@ Papers and Preprints
 - **Towards the Dynamics of a DNN Learning Symbolic Interactions** [\[PDF\]](https://arxiv.org/pdf/2407.19198)  
   Qihan Ren\*, Junpeng Zhang\*, **Yang Xu**, Yue Xin, Dongrui Liu, Quanshi Zhang.  
   *Neural Information Processing Systems (NeurIPS), 2024.*
-    - Originally second author for theoretical contributions; authorship adjusted after merging experimental paper's first author.
+
 
 - **Tracking the Feature Dynamics in LLM Training: A Mechanistic Study** [\[PDF\]](https://arxiv.org/pdf/2412.17626)  
   **Yang Xu**, Yi Wang, Hengguan Huang, Hao Wang.
@@ -40,5 +40,7 @@ Papers and Preprints
 
 - **Simulating and Understanding Deceptive Behaviors in Long-Horizon Interactions** [\[PDF\]](https://arxiv.org/abs/2510.03999)
   **Yang Xu**\*, Xuanming Zhang\*, Samuel Yeh, Jwala Dhamala, Ousmane Dia, Rahul Gupta, Sharon Li.
-  *arXiv preprint arXiv:2510.03999, 2024.*
+  *arXiv preprint arXiv:2510.03999, 2024.* 
+      - NeurIPS 2025 Workshop @ResponsibleFM Accepted.
+      - ICLR 2026 Under Review.
 
