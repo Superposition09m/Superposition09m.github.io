@@ -8,11 +8,16 @@ redirect_from:
 ---
 <meta name="google-site-verification" content="3jHCvvjjHd8hV4pVSWJ0hARkGtHqr54KgdCJ_YRbXQo" />
 
-I am a third-year undergraduate student at Zhejiang University, majoring in Computer Science and Technology. I am interested in **deep learning**, particularly in **interpreting models** and **developing theoretical foundations for them**. My long-term goal is to understand **the mechanisms of neural networks**, transforming deep learning from a "black box" approach into a rigorous **science**. I am also interested in topics such as **alignment** and **trustworthiness** in AI systems, with the aim of ensuring that AI technologies are beneficial to society.
+I am a fourth-year undergraduate student at Zhejiang University, majoring in Computer Science & Technology and minoring in ACEE, Chu Kochen Honors College. Throughout my undergraduate studies, I have been fortunate to be advised by Prof. [Sharon Yixuan Li](https://pages.cs.wisc.edu/~sharonli/index.html), Prof. [Hao Wang](http://www.wanghao.in/), and Prof. [Quanshi Zhang](http://qszhang.com/).
 
-Currently, I am focusing on **mechanistic interpretability** in large language models (LLMs), a rapidly growing area of research that seeks to reverse-engineer the internal operations of neural networks to uncover how they function. Unlike learning theory, which emphasizes formal and mathematical frameworks, mechanistic interpretability takes an approach closer to the "physics" of LLMs. I believe that both **formal theoretical approaches** and **mechanistic discoveries**—viewed through a physical lens—are essential for achieving a comprehensive understanding of neural networks.
+Recently, my research philosophy has undergone a significant evolution from Deconstruction to Construction. Previously, I focused on Interpretability and Trustworthy ML, driven by a desire to decipher the "physics" of neural networks and ensure their controllability.
 
-I am currently a research intern at the University of Wisconsin–Madison, where I have the great privilege of working with [Prof. Sharon Yixuan Li](https://pages.cs.wisc.edu/~sharonli/index.html), whose insightful guidance has been deeply inspiring. I am also very fortunate to be mentored by [Prof. Hao Wang](http://www.wanghao.in/), who continues to provide me with invaluable support throughout my research journey. Prior to this, I had the great pleasure of working with [Prof. Quanshi Zhang](http://qszhang.com/), who first introduced me to the fascinating world of deep learning and interpretability, and offered me many opportunities to explore this field. In addition, I am deeply grateful for the support and encouragement from many seniors and peers, who have helped me grow both academically and personally.
+Now, my research interests have shifted toward new model architectures (e.g., Sparse/Linear Attention, DeltaNet) and new learning paradigms (e.g., Continual Learning, Test-time Learning), grounded in two core beliefs:
+
+- *Understanding through construction, not just deconstruction.* As Richard Feynman famously said: "What I cannot create, I do not understand." 
+- *The next paradigm won't emerge from reverse-engineering Transformers alone.* Relying solely on that path risks trapping our understanding in the local minima of existing frameworks.
+
+While this represents a substantial shift in direction and I am still in an exploratory phase, I believe my previous research experience provides valuable priors for this new terrain. My long-term goal is to build models with true agency and efficiency.
 
 News
 ======
