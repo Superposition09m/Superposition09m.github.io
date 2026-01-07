@@ -8,7 +8,7 @@ redirect_from:
 ---
 <meta name="google-site-verification" content="3jHCvvjjHd8hV4pVSWJ0hARkGtHqr54KgdCJ_YRbXQo" />
 
-I am a fourth-year undergraduate student at Zhejiang University, majoring in Computer Science & Technology and minoring in ACEE, Chu Kochen Honors College. Throughout my undergraduate studies, I have been fortunate to be advised by Prof. [Sharon Yixuan Li](https://pages.cs.wisc.edu/~sharonli/index.html), Prof. [Hao Wang](http://www.wanghao.in/), and Prof. [Quanshi Zhang](http://qszhang.com/).
+I am a fourth-year undergraduate student at Zhejiang University, majoring in Computer Science & Technology and minoring in ACEE, Chu Kochen Honors College.
 
 Recently, my research philosophy has undergone a significant evolution from Deconstruction to Construction. Previously, I focused on Interpretability and Trustworthy ML, driven by a desire to decipher the "physics" of neural networks and ensure their controllability.
 
@@ -19,13 +19,13 @@ Now, my research interests have shifted toward new model architectures (e.g., Sp
 
 While this represents a substantial shift in direction and I am still in an exploratory phase, I believe my previous research experience provides valuable priors for this new terrain. My long-term goal is to build models with true agency and efficiency.
 
-News
+<!-- News
 ======
 - [2025. 3] Start my research internship at UW–Madison, under the guidance of Prof. Sharon Yixuan Li.
 - [2024. 9] One Paper Accepted by NeurIPS 2024.
 - [2024. 7] Start my visit at Rutgers University.
 - [2024. 5] One Paper Accepted by ICML 2024.
-- [2023. 5] Start my remote internship at Shanghai Jiao Tong University.
+- [2023. 5] Start my remote internship at Shanghai Jiao Tong University. -->
 
 Papers and Preprints
 ======
