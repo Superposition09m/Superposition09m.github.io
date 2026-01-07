@@ -20,6 +20,9 @@ main:
 #  - title: "Blog Posts"
 #    url: /year-archive/
     
+  - title: "Blog"
+    url: https://yangxu09.blog/
+    
   - title: "CV"
     url: /files/CV.pdf
     
