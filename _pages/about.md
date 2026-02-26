@@ -10,7 +10,7 @@ redirect_from:
 
 I am a fourth-year undergraduate student at **Zhejiang University**, majoring in Computer Science & Technology and minoring in ACEE at the Chu Kochen Honors College. I am currently an intern at **MiniMax**, where I work on LLM pretraining and model architecture design.
 
-My current research interests focus on designing novel **model architectures**, particularly efficient attention mechanisms, and on **scaling large language models**. Previously, I worked on interpretability and trustworthy machine learning, motivated by a desire to uncover the underlying “physics” of neural networks and to ensure their controllability and reliability. My research direction has shifted from **DECONSTRUCTION** to **CONSTRUCTION**, with the belief that "What I cannot create, I do not understand". The next paradigm in artificial intelligence will not emerge from merely refining existing frameworks, but from building fundamentally new ones.
+My current research interests focus on designing novel **model architectures**, particularly efficient attention mechanisms, and on **scaling large language models**. Previously, I worked on interpretability and trustworthy machine learning, motivated by a desire to uncover the underlying “physics” of neural networks and to ensure their controllability and reliability. My research direction has shifted from **DECONSTRUCTION** to **CONSTRUCTION**, with the belief that *"What I cannot create, I do not understand"*. The next paradigm in artificial intelligence will not emerge from merely refining existing frameworks, but from building fundamentally new ones.
 
 My long-term goal is **to develop efficient, scalable models with genuine agency**.
 
