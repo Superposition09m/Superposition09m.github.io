@@ -18,6 +18,7 @@ News
 ======
 - [2026. 2] Started my internship at MiniMax, working on the Pretraining Team.
 - [2026. 1] One Paper Accepted by ICLR 2026.
+- [2025. 7] Started a summer research program on Triton-based kernel optimization and efficient attention mechanisms, under the mentorship of Jingyang Yuan.
 - [2025. 3] Start my research internship at UW–Madison, under the guidance of Prof. Sharon Yixuan Li.
 - [2024. 9] One Paper Accepted by NeurIPS 2024.
 - [2024. 7] Start my visit at Rutgers University.
