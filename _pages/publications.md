@@ -1,11 +1,11 @@
 ---
 layout: archive
-title: "Publications"
+title: "Papers and Preprints"
 permalink: /publications/
 author_profile: true
 ---
 
-Papers and Preprints
+
 ======
 
 - **Layerwise Change of Knowledge in Neural Networks** [\[PDF\]](https://arxiv.org/abs/2409.08712)  
