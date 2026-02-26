@@ -5,9 +5,6 @@ permalink: /publications/
 author_profile: true
 ---
 
-
-======
-
 - **Layerwise Change of Knowledge in Neural Networks** [\[PDF\]](https://arxiv.org/abs/2409.08712)  
   Xu Cheng\*, Lei Cheng\*, Zhaoran Peng, **Yang Xu**, Tian Han, Quanshi Zhang.  
   *Proceedings of the 41st International Conference on Machine Learning (ICML), PMLR 235:8038-8059, 2024.*
