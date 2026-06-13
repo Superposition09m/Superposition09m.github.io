@@ -5,6 +5,10 @@ permalink: /publications/
 author_profile: true
 ---
 
+- **MiniMax Sparse Attention** [[PDF]](https://github.com/MiniMax-AI/MSA/blob/main/docs/MiniMaxSparseAttention.pdf) [[Code]](https://github.com/MiniMax-AI/MSA)  
+  Xunhao Lai, Weiqi Xu, Yufeng Yang, Qiaorui Chen, **Yang Xu**, Lunbin Zeng, Xiaolong Li, Haohai Sun, Haichao Zhu, Vito Zhang, Jinkai Hu, Jiayao Li, Rui Gao, Zekun Li, Songquan Zhu, Jingkai Zhou, Pengyu Zhao.  
+  *arXiv preprint, 2026.*
+
 - **Layerwise Change of Knowledge in Neural Networks** [\[PDF\]](https://arxiv.org/abs/2409.08712)  
   Xu Cheng\*, Lei Cheng\*, Zhaoran Peng, **Yang Xu**, Tian Han, Quanshi Zhang.  
   *Proceedings of the 41st International Conference on Machine Learning (ICML), PMLR 235:8038-8059, 2024.*
