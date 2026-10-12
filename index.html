@@ -1,0 +1,244 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yang Xu</title>
+  <meta name="description" content="Yang Xu — research fellow at Principia Labs. Scaling is a science.">
+  <!-- the name in brush script (Brush Script MT on Mac, Alex Brush elsewhere); LaTeX's Computer Modern
+       for the text and its typewriter cut (\texttt) for the links. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+  <style>
+    @font-face { font-family: "Computer Modern Serif"; src: url("https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/font/Serif/cmunrm.woff") format("woff"); font-style: normal; font-weight: 400; font-display: swap; }
+    @font-face { font-family: "Computer Modern Serif"; src: url("https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/font/Serif/cmunti.woff") format("woff"); font-style: italic; font-weight: 400; font-display: swap; }
+    @font-face { font-family: "Computer Modern Typewriter"; src: url("https://cdn.jsdelivr.net/gh/dreampulse/computer-modern-web-font@master/font/Typewriter/cmuntt.woff") format("woff"); font-style: normal; font-weight: 400; font-display: swap; }
+
+    :root {
+      --night: #0d0d0d;
+      --paper: #faf9f5;
+      --ink: #141414;
+      --muted: #6a675f;
+      --hairline: #cfcabd;
+      --column: 50rem;
+
+      /* Geometry: the black/paper seam runs through the photo, 58% of the way down. */
+      --pw: clamp(6rem, 20vw, 10.5rem);           /* photo width (name size follows via --ph) */
+      --ph: calc(var(--pw) * 1.078);              /* photo height (1386 x 1494, uncropped) */
+      --above: clamp(4.5rem, 22vh, 12rem);        /* black space above the photo */
+      --seam: calc(var(--above) + 5px + var(--ph) * 0.58);
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body { margin: 0; }
+
+    body {
+      min-height: 100vh;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: "Computer Modern Serif", "Latin Modern Roman", Georgia, serif;
+      font-size: 20px;
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .inner {
+      width: 100%;
+      max-width: var(--column);
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* ---- Hero: black above the seam, paper below; photo and name cross it ---- */
+
+    .hero {
+      padding-top: var(--above);
+      background: linear-gradient(to bottom, var(--night) var(--seam), var(--paper) var(--seam));
+    }
+
+    .hero .inner {
+      display: flex;
+      align-items: flex-start;
+      gap: clamp(1.2rem, 4vw, 3rem);
+    }
+
+    /* Photo at its own proportions; two hairline frames that stay visible on both
+       halves (difference blending turns them light on black and dark on paper). */
+    .frame {
+      position: relative;
+      flex: none;
+      width: calc(var(--pw) + 10px);
+    }
+
+    .frame img {
+      display: block;
+      width: 100%;
+      height: auto;
+      padding: 5px;
+    }
+
+    .frame::before,
+    .frame::after {
+      content: "";
+      position: absolute;
+      border: 1px solid #fff;
+      mix-blend-mode: difference;
+      pointer-events: none;
+    }
+
+    .frame::before { inset: 0; }
+    .frame::after { inset: -4px; }
+
+    /* The name in brush script (the user's pick: Brush Script MT); on other devices Alex
+       Brush from Google Fonts. Sized so its two lines span the photo; the seam cuts between
+       them and the colours flip across it. */
+    h1 {
+      margin: calc(var(--ph) * -0.02) 0 0;
+      color: #fff;
+      mix-blend-mode: difference;
+      font-family: "Brush Script MT", "Alex Brush", "Segoe Script", cursive;
+      font-size: calc(var(--ph) * 0.5);
+      font-weight: 400;
+      line-height: 1.02;
+    }
+
+    h1 span { display: block; }
+
+    /* ---- Below: what I do, and where to go ---------------------------------- */
+
+    .bottom { padding: 2.6rem 0 5rem; }
+
+    .intro {
+      max-width: 36rem;
+      margin: 0;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: underline;
+      text-decoration-color: var(--hairline);
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+      transition: text-decoration-color 0.15s, color 0.15s;
+    }
+
+    a:hover { text-decoration-color: var(--ink); }
+
+    a:focus-visible, summary:focus-visible {
+      outline: 1px solid var(--ink);
+      outline-offset: 3px;
+    }
+
+    nav { margin-top: 2.2rem; }
+
+    /* Links set like \texttt. */
+    .routes {
+      position: relative;
+      display: flex;
+      gap: 2.4rem;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      font-family: "Computer Modern Typewriter", ui-monospace, monospace;
+      font-size: 1.05rem;
+    }
+
+    .routes > li > a,
+    summary {
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: border-color 0.15s;
+    }
+
+    .routes > li > a:hover,
+    summary:hover,
+    details[open] summary { border-bottom-color: var(--ink); }
+
+    summary {
+      cursor: pointer;
+      list-style: none;
+    }
+
+    summary::-webkit-details-marker { display: none; }
+
+    /* The contact list opens below the whole row, not under the word "Connect". */
+    .contacts {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.3rem 1.5rem;
+      margin: 1rem 0 0;
+      padding: 0;
+      list-style: none;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .contacts a { text-decoration: none; }
+    .contacts a:hover { color: var(--ink); }
+    .main-email {
+      margin-left: 0.25rem;
+      color: #b42318;
+      font-family: "Computer Modern Typewriter", ui-monospace, monospace;
+      font-size: 0.72em;
+      letter-spacing: 0.04em;
+    }
+
+    @media (max-width: 480px) {
+      body { font-size: 18px; }
+      .routes { gap: 1.8rem; }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="inner">
+      <div class="frame">
+        <img src="{{ '/images/' | append: site.author.avatar | relative_url }}" alt="Yang Xu" width="1386" height="1494">
+      </div>
+      <h1><span>Yang</span><span>Xu</span></h1>
+    </div>
+  </header>
+
+  <main class="bottom">
+    <div class="inner">
+      <p class="intro">
+        I am Yang Xu. I am a research fellow at
+        <a href="https://www.principialabs.org/">Principia Labs</a>.
+        I am training models that discover principles; I believe scaling is a science;
+        and I believe the two can accelerate each other.
+      </p>
+
+      <nav aria-label="Links">
+        <ul class="routes">
+          <li><a href="{{ '/files/CV.pdf' | relative_url }}">CV</a></li>
+          <li><a href="https://yangxu09.blog/">Blog</a></li>
+          <li>
+            <details>
+              <summary>Connect</summary>
+              {% comment %} Contacts come from the author fields in _config.yml, same URLs as the old site. {% endcomment %}
+              {% assign author = site.author %}
+              <ul class="contacts">
+                {% if author.principia_email %}<li><a href="mailto:{{ author.principia_email }}">Email</a><span class="main-email">[MAIN]</span></li>{% endif %}
+                {% if author.email %}<li><a href="mailto:{{ author.email }}">Email</a></li>{% endif %}
+                {% if author.googlescholar %}<li><a href="{{ author.googlescholar }}">Google Scholar</a></li>{% endif %}
+                {% if author.github %}<li><a href="https://github.com/{{ author.github }}">GitHub</a></li>{% endif %}
+                {% if author.twitter %}<li><a href="https://twitter.com/{{ author.twitter }}">X</a></li>{% endif %}
+                {% if author.xiaohongshu %}<li><a href="{{ author.xiaohongshu }}">Rednote</a></li>{% endif %}
+              </ul>
+            </details>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </main>
+</body>
+</html>
